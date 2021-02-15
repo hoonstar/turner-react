@@ -4,8 +4,11 @@ node_js:
 cache:
   directories:
     - node_modules
+install:
+  - yarn ci
 script:
-  - npm run build
+  - yarn test
+  - yarn run build
 deploy:
   provider: pages
   skip_cleanup: true
