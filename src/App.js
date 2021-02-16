@@ -1,11 +1,8 @@
 import React from "react";
+import InsLanding from "./pages/insurance/InsLanding";
 
 function App() {
-  return (
-    <div>
-      <p>This is a start tryh</p>
-    </div>
-  );
+  return <InsLanding></InsLanding>;
 }
 
 export default App;
