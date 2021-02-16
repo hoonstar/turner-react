@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/turner-react/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/turner-react/static/js/main.ca443516.chunk.js",
+    "main.js.map": "/turner-react/static/js/main.ca443516.chunk.js.map",
+    "runtime-main.js": "/turner-react/static/js/runtime-main.5dd3138e.js",
+    "runtime-main.js.map": "/turner-react/static/js/runtime-main.5dd3138e.js.map",
+    "static/js/2.46e978cd.chunk.js": "/turner-react/static/js/2.46e978cd.chunk.js",
+    "static/js/2.46e978cd.chunk.js.map": "/turner-react/static/js/2.46e978cd.chunk.js.map",
+    "static/js/3.6df6492b.chunk.js": "/turner-react/static/js/3.6df6492b.chunk.js",
+    "static/js/3.6df6492b.chunk.js.map": "/turner-react/static/js/3.6df6492b.chunk.js.map",
+    "index.html": "/turner-react/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/turner-react/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.46e978cd.chunk.js.LICENSE.txt": "/turner-react/static/js/2.46e978cd.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/turner-react/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5dd3138e.js",
+    "static/js/2.46e978cd.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.ca443516.chunk.js"
+  ]
+}
