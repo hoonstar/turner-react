@@ -1,14 +1,20 @@
 import React from "react";
 import Header from "../../components/Header";
-// import { makeStyles } from "@material-ui/core/styles";
+import Background from "../../components/Background";
+import Navbar from "../../components/Navbar";
 
-// const useStyles = makeStyles((theme) => ({
-//   insLanding: {},
-// }));
-
+const details = {
+  text: "Welcome to Turner Insurance",
+  color: "white",
+};
 function InsLanding() {
-  // const classes = useStyles();
-  return <Header />;
+  return (
+    <>
+      <Background />
+      <Navbar />
+      <Header text={details.text} color={details.color} />
+    </>
+  );
 }
 
 export default InsLanding;

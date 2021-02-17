@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundPosition: "center center",
     backgroundAttachment: "fixed",
     zIndex: -1,
-    opacity: 0.9,
+    opacity: 1,
     minHeight: "100%",
     minWidth: "100%",
   },

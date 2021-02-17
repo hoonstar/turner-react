@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     fontFamily: "Montserrat, sans-serif",
     fontSize: "large",
-    fontWeight: "500",
+    fontWeight: "800",
     listStyleType: "none",
   },
 }));

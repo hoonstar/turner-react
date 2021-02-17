@@ -6,8 +6,6 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
-import Background from "./components/Background";
-import Navbar from "./components/Navbar";
 import Fonts from "./components/Fonts";
 import InsLanding from "./pages/insurance/InsLanding";
 import HomeLanding from "./pages/home/HomeLanding";
@@ -17,8 +15,7 @@ function App() {
     <Router>
       <CssBaseline />
       <Fonts />
-      <Background />
-      <Navbar />
+
       <Switch>
         <Route exact path="/home" component={HomeLanding} />
         <Route path="/insurance" component={InsLanding} />
