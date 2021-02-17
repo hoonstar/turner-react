@@ -1,9 +1,9 @@
 import React from "react";
-
+import Background from "../../components/Background";
 function InsLanding() {
   return (
     <div>
-      <p>from landing page</p>
+      <Background />
     </div>
   );
 }
