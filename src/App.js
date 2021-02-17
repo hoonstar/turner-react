@@ -1,5 +1,4 @@
 import React from "react";
-
 import { CssBaseline } from "@material-ui/core";
 import {
   BrowserRouter as Router,
@@ -9,7 +8,6 @@ import {
 } from "react-router-dom";
 import Background from "./components/Background";
 import Navbar from "./components/Navbar";
-import { Routes } from "./components/constants/Routes";
 import Fonts from "./components/Fonts";
 import InsLanding from "./pages/insurance/InsLanding";
 import HomeLanding from "./pages/home/HomeLanding";

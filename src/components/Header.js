@@ -3,10 +3,12 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   header: {
-    marginTop: "25%",
-    height: "100vh",
+    width: "100%",
+    display: "flex 1",
     justifyContent: "center",
     alignItems: "center",
+  },
+  text: {
     color: "white",
     fontFamily: "Mulish, sans-serif",
   },
@@ -14,5 +16,9 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Header() {
   const classes = useStyles();
-  return <h1 className={classes.header}>Welcome to Turners Insurance</h1>;
+  return (
+    <div className={classes.header}>
+      <h1 className={classes.text}>Welcome to Turners Insurance</h1>
+    </div>
+  );
 }

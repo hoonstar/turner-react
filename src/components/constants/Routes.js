@@ -1,8 +1,9 @@
 export const Routes = [
   {
     Home: "/",
-    InsLanding: "/InsLanding",
-    Finance: "/Finance",
+    Insurance: "/insurance",
+    Finance: "/finance",
+    Claim: "/claim",
     Unknown: "/abc",
   },
 ];
