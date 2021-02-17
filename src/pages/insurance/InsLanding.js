@@ -1,6 +1,4 @@
 import React from "react";
-import Background from "../../components/Background";
-import Navbar from "../../components/Navbar";
 import Header from "../../components/Header";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -14,10 +12,14 @@ function InsLanding() {
   const classes = useStyles();
   return (
     <div className={classes.insLanding}>
-      <Background />
-      <Navbar />
       <div className="container d-flex">
-        <Header />
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 center">
+              <Header />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

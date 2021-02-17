@@ -9,14 +9,21 @@ import {
 } from "react-router-dom";
 import Background from "./components/Background";
 import Navbar from "./components/Navbar";
+import { Routes } from "./components/constants/Routes";
+import Fonts from "./components/Fonts";
 
 function App() {
   return (
     <Router>
       <CssBaseline>
+        <Fonts />
         <Background />
         <Navbar />
-        <InsLanding></InsLanding>
+        <Switch>
+          <Route exact path={Routes.Home} component={InsLanding} />
+          {/* Redirect all 404 to Home */}
+          <Redirect to={Routes.InsLanding} />
+        </Switch>
       </CssBaseline>
     </Router>
   );
