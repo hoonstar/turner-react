@@ -6,10 +6,9 @@ import logo from "../static/images/logo.png";
 const useStyles = makeStyles((theme) => ({
   appbar: {
     background: "none",
+    height: "10%",
   },
-  logo: {
-    src: `url(${logo})`,
-  },
+  logo: {},
 }));
 
 export default function Navbar() {
@@ -17,7 +16,9 @@ export default function Navbar() {
   return (
     <div>
       <AppBar className={classes.appbar} elevation={0}>
-        <img className={classes.logo} src={logo}></img>
+        <Toolbar>
+          <img className={classes.logo} src={logo}></img>
+        </Toolbar>
       </AppBar>
     </div>
   );
