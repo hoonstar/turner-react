@@ -10,12 +10,6 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     fontFamily: "Mulish, sans-serif",
   },
-  headerText: {
-    marginTop: 0,
-    height: "100vh",
-    justifyContent: "center",
-    alignItems: "center",
-  },
 }));
 
 export default function Header() {

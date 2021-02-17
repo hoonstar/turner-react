@@ -37,14 +37,14 @@ export default function Navbar() {
   const classes = useStyles();
   return (
     <AppBar className={classes.appbar} elevation={0}>
-      <Link to="/Home">
+      <Link to="/home">
         <img className={classes.logo} src={logo} alt=""></img>
       </Link>
       <ul className={classes.list}>
-        <Link className={classes.link} to="/Insurance">
+        <Link className={classes.link} to="/insurance">
           <li>Insurance</li>
         </Link>
-        <Link className={classes.link} to="Finance">
+        <Link className={classes.link} to="/finance">
           <li>Finance</li>
         </Link>
       </ul>

@@ -1,7 +1,7 @@
 export const Routes = [
   {
     Home: "/",
-    Insurance: "/InsLanding",
+    InsLanding: "/InsLanding",
     Finance: "/Finance",
     Unknown: "/abc",
   },
