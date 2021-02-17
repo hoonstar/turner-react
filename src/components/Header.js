@@ -4,7 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
   header: {
     width: "100%",
-    display: "flex 1",
+    marginTop: "10%",
+    display: "flex",
     justifyContent: "center",
     alignItems: "center",
   },

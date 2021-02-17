@@ -15,18 +15,17 @@ import FinLanding from "./pages/finance/FinLanding";
 function App() {
   return (
     <Router>
-      <CssBaseline>
-        <Fonts />
-        <Background />
-        <Navbar />
-        <Switch>
-          <Route exact path="/home" component={HomeLanding} />
-          <Route path="/insurance" component={InsLanding} />
-          <Route path="/finance" component={FinLanding} />
-          {/* Redirect all 404 to Home */}
-          <Redirect to="/insurance" />
-        </Switch>
-      </CssBaseline>
+      <CssBaseline />
+      <Fonts />
+      <Background />
+      <Navbar />
+      <Switch>
+        <Route exact path="/home" component={HomeLanding} />
+        <Route path="/insurance" component={InsLanding} />
+        <Route path="/finance" component={FinLanding} />
+        {/* Redirect all 404 to Home */}
+        <Redirect to="/insurance" />
+      </Switch>
     </Router>
   );
 }
