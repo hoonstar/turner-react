@@ -25,7 +25,6 @@ const useStyles = makeStyles((theme) => ({
   link: {
     marginRight: "2rem",
     textDecoration: "none",
-    color: "white",
     fontFamily: "Montserrat, sans-serif",
     fontSize: "large",
     fontWeight: "800",
@@ -33,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Navbar() {
+export default function Navbar(props) {
   const classes = useStyles();
   return (
     <AppBar className={classes.appbar} elevation={0}>
@@ -41,10 +40,18 @@ export default function Navbar() {
         <img className={classes.logo} src={logo} alt=""></img>
       </Link>
       <ul className={classes.list}>
-        <Link className={classes.link} to="/insurance">
+        <Link
+          className={classes.link}
+          style={{ color: props.navColor }}
+          to="/insurance"
+        >
           <li>Insurance</li>
         </Link>
-        <Link className={classes.link} to="/finance">
+        <Link
+          className={classes.link}
+          style={{ color: props.navColor }}
+          to="/finance"
+        >
           <li>Finance</li>
         </Link>
       </ul>

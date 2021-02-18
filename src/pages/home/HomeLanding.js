@@ -2,16 +2,19 @@ import React from "react";
 import Header from "../../components/Header";
 import Background from "../../components/Background";
 import Navbar from "../../components/Navbar";
+import bg from "../../static/images/home_bg.png";
 
 const details = {
   text: "Welcome to Turner Home",
-  color: "#18A0FB",
+  color: "#03539D",
+  url: `url(${bg})`,
+  navColor: "#4D4949",
 };
 export default function HomeLanding() {
   return (
     <>
-      <Background />
-      <Navbar />
+      <Background url={details.url} />
+      <Navbar navColor={details.navColor} />
       <Header text={details.text} color={details.color} />
     </>
   );
