@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../components/Header";
 import Background from "../../components/Background";
 import Navbar from "../../components/Navbar";
 import bg from "../../static/images/home_bg.png";
@@ -15,7 +14,6 @@ export default function HomeLanding() {
     <>
       <Background url={details.url} />
       <Navbar navColor={details.navColor} />
-      <Header text={details.text} color={details.color} />
     </>
   );
 }

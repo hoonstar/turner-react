@@ -11,7 +11,6 @@ const useStyles = makeStyles((theme) => ({
     height: "100px",
   },
   text: {
-    color: "white",
     fontFamily: "Mulish, sans-serif",
     fontSize: "4vw",
     fontWeight: "700",
