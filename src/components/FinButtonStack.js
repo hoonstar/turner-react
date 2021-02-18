@@ -16,10 +16,10 @@ const useStyles = makeStyles((theme) => ({
 const details = {
   buttonText1: "Apply Personal ->",
   buttonText2: "Apply Business ->",
-  buttonColor1: "blue",
+  buttonColor1: "#00BFFF",
   buttonColor2: "white",
   buttonBgColor1: "white",
-  buttonBgColor2: "blue",
+  buttonBgColor2: "#00BFFF",
 };
 export default function FinButtonStack() {
   const classes = useStyles();
