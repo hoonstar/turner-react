@@ -1,10 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-// import ins_bg from "../static/images/ins_bg.jpg";
 
 const useStyles = makeStyles((theme) => ({
   bgImg: {
-    // backgroundImage: `url(${ins_bg})`,
     position: "absolute",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",

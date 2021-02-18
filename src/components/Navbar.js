@@ -43,16 +43,16 @@ export default function Navbar(props) {
         <Link
           className={classes.link}
           style={{ color: props.navColor }}
-          to="/insurance"
+          to="/finance"
         >
-          <li>Insurance</li>
+          <li>Finance</li>
         </Link>
         <Link
           className={classes.link}
           style={{ color: props.navColor }}
-          to="/finance"
+          to="/insurance"
         >
-          <li>Finance</li>
+          <li>Insurance</li>
         </Link>
       </ul>
     </AppBar>
